@@ -1,5 +1,5 @@
 
-
+-------------------------------------------------------
 public class AddBean {
 	private long isbn;
 	private String title;
