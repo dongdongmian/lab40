@@ -63,6 +63,9 @@ public class AddBean {
 	 * Ìí¼ÓÊı¾İ
 	 */
 	public String add(){
+
+		system.out.println("------R3------!!!");		
+
 		connDB connadd = new connDB();
 		String sql = "";
 		int getstate = 0;
