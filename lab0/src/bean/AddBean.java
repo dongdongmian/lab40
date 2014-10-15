@@ -64,7 +64,7 @@ public class AddBean {
 	 */
 	public String add(){
 
-		system.out.println("------R3------!!!");		
+		system.out.println("------R5------!!!");		
 
 		connDB connadd = new connDB();
 		String sql = "";
