@@ -7,7 +7,7 @@ public class AddBean {
 	private String publisher;
 	private long publishdate;
 	private float price;
-	
+	。。。。
 	public long getPublishdate() {
 		return publishdate;
 	}
