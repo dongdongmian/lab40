@@ -1,6 +1,4 @@
-package bean;
 
-import conn.connDB;
 
 public class AddBean {
 	private long isbn;
@@ -79,12 +77,7 @@ public class AddBean {
 			return "Fail to add book!";
 		}
 	}
-	/*
-	 * 进行删除操作，重写个麻烦，也不想改名字了，将就用吧
-	 */
-	
 	public String delete(){
-		connDB connadd = new connDB();
 		String sql = "";
 		int getstate = 0;
 		
